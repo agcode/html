@@ -1,0 +1,38 @@
+@media screen and (min-width: 480px) {
+    h1 {
+        float: left;
+        color:red;
+    }
+    img {
+        float: left;
+    }
+    div {
+        float: left;
+        color:red;
+    }
+    ul{
+        list-style-type:square
+    }
+}
+
+@media screen and (min-width: 620px) { 
+    h1 {
+        float: right;
+        color:black;
+    }
+    img {
+        float: right;
+    }
+    div {
+        float: right;
+        color:black;
+    }
+    ul{
+        list-style-type:circle
+    }
+}
+
+body {
+    font-family:Arial;
+    
+}
